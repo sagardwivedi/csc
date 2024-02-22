@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  label {
+    display: block;
+    margin-bottom: 2px;
+    font-size: medium
+  }
+
+  input {
+    @apply input input-bordered;
+  }
+}
